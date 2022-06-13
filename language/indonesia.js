@@ -2,14 +2,14 @@ exports.private = () =>{
 	return`Fitur hanya bisa di gunakan di private chat`
 	}
 exports.wait = () => {
-    return `⏳ Mohon tunggu zifabotz sedang memproses`
+    return `⏳ Mohon tunggu Cekilbotz sedang memproses`
 }
 exports.ok = () => {
-    return `✅ Done. Sudah zifa proses`
+    return `✅ Done. Sudah Cekil proses`
 }
 
 exports.err = () => {
-    return `⚠️ Fitur zifabotz Sedang Error`
+    return `⚠️ Fitur Cekilbotz Sedang Error`
 }
 exports.erorLink = () => {
     return `⚠️ Link nya error`
@@ -34,11 +34,11 @@ exports.cmdNotFound = (cmd, prefix) => {
 }
 
 exports.ownerOnly = () => {
-    return `❎ Command ini khusus Rozi`
+    return `❎ Command ini khusus Cekil`
 }
 
 exports.doneOwner = () => {
-    return `✅  ️Sudah selesai, Rozi`
+    return `✅  ️Sudah selesai, Cekil`
 }
 
 exports.groupOnly = () => {
@@ -54,7 +54,7 @@ exports.nhFalse = () => {
 }
 
 exports.listBlock = (blockNumber) => {
-    return `*── 「 ZIFABOTZ 」 ──*
+    return `*── 「 CekilBOTZ 」 ──*
     
 Total diblokir: *${blockNumber.length}* user\n`
 }
@@ -68,7 +68,7 @@ exports.adminAlready = () => {
 }
 
 exports.botNotAdmin = () => {
-    return `Jadikan Zifabotz sebagai admin terlebih dahulu! 🙏`
+    return `Jadikan Cekilbotz sebagai admin terlebih dahulu! 🙏`
 }
 
 exports.received = (pushname) => {
@@ -86,18 +86,17 @@ exports.notNum = (q) => {
 }
 exports.menunya = (salam, pushname, botname) =>{
 	return`*Hai kak ${pushname} 👋 selamat ${salam}* ... 
-♡   ❍ㅤ  ⎙ㅤ ⌲
-╭─[ *_Zifabot-MD_* ]─✧
+╭─[ *_SEWA BOT_* ]─✧
+  *--5k   1 Minggu--*
+  *--10k  3 Minggu--*
+  *--20k  Permanen--*
 ╰─────···
-📮 𝚂𝚒𝚕𝚊𝚔𝚊𝚗 𝚙𝚒𝚕𝚒𝚑 𝚋𝚞𝚝𝚝𝚘𝚗 𝚍𝚒 𝚋𝚊𝚠𝚊𝚑 𝚒𝚗𝚒_____•••••••••
-⬣━〔Powered By Rozi━⬣
-▌│█║▌║▌║║▌║▌║█│▌
 `
 }
 exports.listMenu = (time, salam, pushname, prefix) => {
     return `*Selamat ${salam} ${pushname} 🧸*
 *⌚Time Server : ${time}*
-*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Zifabot-MD⳹ ❋ཻུ۪۪ :*
+*📚 List-Menu ⳹ ❋ཻུ۪۪⸙Cekilbot-MD⳹ ❋ཻུ۪۪ :*
 
 ╭─❒ 「 Bot Info 」 
 ├ ${prefix}owner
@@ -315,7 +314,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ╰❒ ${prefix}twitter link
 
 ╭─❒ 「 Primbon 」
-├ ${prefix}nomorhoki 887435047326
+├ ${prefix}nomorhoki 889515023118
 ├ ${prefix}artimimpi [query]
 ├ ${prefix}artinama [query]
 ├ ${prefix}ramaljodoh
@@ -805,8 +804,8 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ My God
 ├ My Parents
 ├ Fatih A.
-├ Zifabotz
-├ Rozi
+├ Cekilbotz
+├ Cekil
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
@@ -816,7 +815,7 @@ exports.listMenu = (time, salam, pushname, prefix) => {
 ├ Penyedia Module
 ╰❒ And All Support
 
-⬣━〔Powered By Rozi〕━⬣
+⬣━〔Powered By Cekil〕━⬣
     `
 }
 
@@ -824,9 +823,9 @@ exports.rules = (prefix) => {
     return `
 ╭─────[ *RULES* ]─────✧
 ┴
-│¹ Dilarang Hina zifabotz / Owner
+│¹ Dilarang Hina Cekilbotz / Owner
 │² Dilarang Spam Command
-│³ Dilarang Kirim Virtex ke zifabotz
+│³ Dilarang Kirim Virtex ke Cekilbotz
 │⁴ Dilarang Spam Menu Ga Jelas
 │⁵ Dilarang Telp / Vc
 │⁶ Dilarang Culik Bot
@@ -865,10 +864,8 @@ Goodbye`
 exports.source = () =>{
 return`═══════════════════════
 ║╭──❉ 〔 SCRIPT 〕 ❉──────
-║│ *📮 Script Recode:*
-║│➸ https://github.com/Amrozi888/zifabotz-MD1
-║╭──❉  •BASE Hisoka-Morou
-║╰──❉ •SC ORI alphabot-MD11
+║│ *📮 CONTACT OWNER*
+║╰──❉ 
 ═════════════
 `
 }
@@ -876,11 +873,11 @@ exports.tos = (ownernomer) => {
     return `
 ››╭─〘 *Donasi* 〙
 ╭╡📮 *Donasi bang biar semangat ngebot nye...*
-│┝‷✧ *Dana:* 085828764046
+│┝‷✧ *Dana:* 089515023118
 │╰───···─────
 │⁺◛˖ Ingin Donasi? Chat nomor dibawah
 ╰──────────···───╮
-Kontak Owner Zifabotz:
+Kontak Owner Cekilbotz:
 wa.me/${ownernomer}
 
     `
@@ -1479,8 +1476,8 @@ exports.tqto = () =>{
 ├ My God
 ├ My Parents
 ├ Fatih A.
-├ Zifabotz
-├ Rozi
+├ Cekilbotz
+├ Cekil
 ├ Ferdi
 ├ DikaArdnt
 ├ Mhankbarbar
@@ -1494,7 +1491,7 @@ exports.tqto = () =>{
 
 exports.primbonmenu = (prefix) =>{
 	return`╭─❒ 「 Primbon 」
-├ ${prefix}nomorhoki 887435047326
+├ ${prefix}nomorhoki 89515023118
 ├ ${prefix}artimimpi [query]
 ├ ${prefix}artinama [query]
 ├ ${prefix}ramaljodoh
